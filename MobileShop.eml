@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.8" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/web/WEB-INF/classes"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 8.0.44" scope="PROVIDED"/>
+	<lib name="lib" scope="COMPILE">
+		<relative-module-cls project-related="file://$PROJECT_DIR$/web/WEB-INF/lib"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-io-1.4.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-logging.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl-impl-1.2.2.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.1.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Tomcat 8.0.44" value="application_server_libraries"/>
+	</levels>
+</component>
